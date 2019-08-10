@@ -15,6 +15,7 @@ class SubmitButton extends Component {
         this.handleClose = this.handleClose.bind(this);
     }
 
+
     handleClose() {
         this.setState({ show: false });
     }
@@ -31,6 +32,7 @@ class SubmitButton extends Component {
     }
 
     render() {
+
         return (<div className="resetDiv">
             <Button  id="footer-button"  onClick={this.handleSubmitSchedule}> Submit </Button>
 
